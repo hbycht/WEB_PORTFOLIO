@@ -1,0 +1,48 @@
+header img {
+    top: 100px;
+    object-fit: cover;
+    height: 140px;
+    transform: scale(110%);
+    transition: .5s ease;
+}
+
+header:hover img {
+    transform: scale(108%);
+}
+
+.project-description {
+    text-align: justify;
+}
+
+.date {
+    color: white;
+}
+
+.project-title {
+    color: var(--akzent);
+    letter-spacing: 5px;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#information {
+    width: 1400px;
+}
+
+#galery {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 48%;
+    margin: 10px;
+}
+
+.pic img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
